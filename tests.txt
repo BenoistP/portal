@@ -52,3 +52,8 @@ Remaining balance: 10 Soap mints.
 ---------------------------------------------------------------------
 
 
+
+
+
+changer de version d'anchor
+avm use 0.29.0

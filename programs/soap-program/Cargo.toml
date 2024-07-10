@@ -16,15 +16,26 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = { version="0.26.0", features=["init-if-needed"] }
-anchor-spl = { version = "0.26.0", features = ["metadata"] }
-mpl-token-metadata = { version="1.2.5", features = [ "no-entrypoint" ] }
+#anchor-lang = { version="0.26.0", features=["init-if-needed"] }
+#anchor-spl = { version = "0.26.0", features = ["metadata"] }
+anchor-lang = { version="0.29.0", features=["init-if-needed"] }
+anchor-spl = { version = "0.29.0", features = ["metadata"] }
+borsh = "0.9.3"
+borsh-derive = "0.9.3"
+
+#mpl-token-metadata = { version="1.2.5", features = [ "no-entrypoint" ] }
+#mpl-token-metadata = { version="1.13.2", features = [ "no-entrypoint" ] }
+mpl-token-metadata = { version="3.2.3" }
+spl-token = { version = "3.3.0", features = ["no-entrypoint"] }
+
 
 [dev-dependencies]
-solana-sdk = "1.8.14"
+#solana-sdk = "1.8.14"
+solana-sdk = "1.18.17"
 assert_matches = "1.5.0"
 bincode = "1.3.3"
 solana-program-test = "1.8.14"
 spl-token = { version = "3.1.1", features = ["no-entrypoint"] }
 spl-associated-token-account = { version = "1.1.2", features = ["no-entrypoint"] }
-bytemuck = "1.4.0"
+#bytemuck = "1.4.0"
+bytemuck = "1.16.1"
