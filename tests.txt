@@ -1,0 +1,54 @@
+Backend Keypair Pubkey:  PublicKey [PublicKey(2FFodtUQzhEa5Ep2BGr9VNhiyyP5ffrRboQbcS4bgidp)] {
+  _bn: <BN: 12828ea912f5a90c8875806dcf38c644104b4adf1ed2c3e3875b2a607a70a7f3>
+}
+{
+  imageFileName: '345565.105.p.tn_400x400.jpg',
+  soapAddress: '8UNn6PsXEqCnFoM3M87uVJpkJwXVRLS6MCvDbw9aLAMr'
+}
+File extension of incoming file:  jpg
+Backend unique Image filename:  8UNn6PsXEqCnFoM3M87uVJpkJwXVRLS6MCvDbw9aLAMr.jpg
+
+Shadow Drive Message to be signed for IMAGE:  Shadow Drive Signed Message:
+Storage Account: 5PPwvmWPbvBKiCTapQ4e3kUzdBbbKwRoumFg3BRjMHa2
+Upload files with hash: d33382fa9389ee156c264d652136889feef85346435c980bf4b677ceb72e9f6d
+
+SignatureImage of message:  2qrK3WYFATrT4L4rSnZqDjJRgXys4LtZD8DAt2TFL9a2ZcY4VJMxT5qMrWt6nVyTcdpogcqGiVjXPG7hUe8S7tvs
+
+Shadow Drive Message to be signed for JSON:  Shadow Drive Signed Message:
+Storage Account: 5PPwvmWPbvBKiCTapQ4e3kUzdBbbKwRoumFg3BRjMHa2
+Upload files with hash: e5288fd6c314e1763570dc9801cd6ebb41d6152cf3bb8d217405d21300e78e63
+
+
+http://localhost:3000/creator/fundPot?soapAddress=8UNn6PsXEqCnFoM3M87uVJpkJwXVRLS6MCvDbw9aLAMr
+
+
+
+
+---------------------------------------------------------------------
+Soap test 01
+Soap test 01 desc.
+Remaining balance: 0 Soap mints.
+---------------------------------------------------------------------
+
+
+
+
+----------
+Add funds
+----------
+
+
+Signature Json of message:  5f35Dxm9eowWTLr6tg2vbz99fb1Yq2AkiAB75rcsSmG3cpPVzoFeGtaTjYZ2dbP6ateQGauPLQq4FsnmCw3LJd9D
+wait  - compiling /creator/fundPot...
+event - compiled client and server successfully in 852 ms (2799 modules)
+
+
+
+
+---------------------------------------------------------------------
+Soap test 01
+Soap test 01 desc.
+Remaining balance: 10 Soap mints.
+---------------------------------------------------------------------
+
+
