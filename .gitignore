@@ -52,3 +52,4 @@ test-ledger
 
 # Secret
 secret
+soapkeypair.json
